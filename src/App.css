@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  /* background-image: linear-gradient(
+    90deg,
+    rgb(223, 164, 56),
+    #00ffff,
+    rgb(81, 219, 97)
+  ); */
+
+  background-image: url();
+}
+div h1 {
+  display: flex;
+  justify-content: center;
+  border: 0.5px solid black;
+  width: 50%;
+  margin-left: 28%;
+  background-color: bisque;
+}
+ul li {
+  font-weight: 500;
+  margin-left: 33%;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border: 2px dotted red;
+  width: 500px;
+  margin-right: auto;
+}
+ul button {
+  font-size: 15px;
+  padding: auto;
+  background-color: blanchedalmond;
+  width: 90px;
+  margin-left: 12px;
+  border-radius: 25px;
+  font-weight: 200;
+}
+button:hover {
+  background-color: salmon;
+  color: black;
+}
+li {
+  background-color: rgb(255, 196, 0);
+}
